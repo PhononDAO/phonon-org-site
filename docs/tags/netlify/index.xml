@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>netlify on Congo</title>
-    <link>/tags/netlify/</link>
+    <link>https://phonondao.github.io/phonon-org-site/tags/netlify/</link>
     <description>Recent content in netlify on Congo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Congo contributors</copyright>
-    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://phonondao.github.io/phonon-org-site/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hosting &amp; Deployment</title>
-      <link>/docs/hosting-deployment/</link>
+      <link>https://phonondao.github.io/phonon-org-site/docs/hosting-deployment/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/hosting-deployment/</guid>
+      <guid>https://phonondao.github.io/phonon-org-site/docs/hosting-deployment/</guid>
       <description>Congo is designed to be flexible in almost any deployment scenario. Learn more about how to deploy your project to some common hosting platforms.</description>
     </item>
     

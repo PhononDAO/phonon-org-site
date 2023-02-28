@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>front matter on Congo</title>
-    <link>/tags/front-matter/</link>
+    <link>https://phonondao.github.io/phonon-org-site/tags/front-matter/</link>
     <description>Recent content in front matter on Congo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Congo contributors</copyright>
-    <lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/front-matter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://phonondao.github.io/phonon-org-site/tags/front-matter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Front Matter</title>
-      <link>/docs/front-matter/</link>
+      <link>https://phonondao.github.io/phonon-org-site/docs/front-matter/</link>
       <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/front-matter/</guid>
+      <guid>https://phonondao.github.io/phonon-org-site/docs/front-matter/</guid>
       <description>While supporting most Hugo defaults, Congo adds a number of front matter parameters to customise the presentation of individual articles.</description>
     </item>
     

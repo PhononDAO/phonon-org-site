@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>advanced on Congo</title>
-    <link>/tags/advanced/</link>
+    <link>https://phonondao.github.io/phonon-org-site/tags/advanced/</link>
     <description>Recent content in advanced on Congo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Congo contributors</copyright>
-    <lastBuildDate>Sat, 08 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/advanced/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://phonondao.github.io/phonon-org-site/tags/advanced/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advanced Customisation</title>
-      <link>/docs/advanced-customisation/</link>
+      <link>https://phonondao.github.io/phonon-org-site/docs/advanced-customisation/</link>
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/docs/advanced-customisation/</guid>
+      <guid>https://phonondao.github.io/phonon-org-site/docs/advanced-customisation/</guid>
       <description>Congo supports advanced customisations that include modifying the underlying Tailwind configuration, building the theme manually and providing custom CSS.</description>
     </item>
     

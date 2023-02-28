@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>katex on Congo</title>
-    <link>/tags/katex/</link>
+    <link>https://phonondao.github.io/phonon-org-site/tags/katex/</link>
     <description>Recent content in katex on Congo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>&amp;copy; 2023 Congo contributors</copyright>
-    <lastBuildDate>Fri, 08 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/katex/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://phonondao.github.io/phonon-org-site/tags/katex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mathematical notation</title>
-      <link>/samples/mathematical-notation/</link>
+      <link>https://phonondao.github.io/phonon-org-site/samples/mathematical-notation/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/samples/mathematical-notation/</guid>
+      <guid>https://phonondao.github.io/phonon-org-site/samples/mathematical-notation/</guid>
       <description>&lt;p&gt;KaTeX can be used to render mathematical notation within articles.&lt;/p&gt;</description>
     </item>
     
