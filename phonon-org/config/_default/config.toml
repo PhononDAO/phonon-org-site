@@ -8,6 +8,7 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
+publishDir = "docs"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
