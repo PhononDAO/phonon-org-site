@@ -1,0 +1,20 @@
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+isoCode = "en"
+weight = 1
+rtl = false
+
+title = "Phonon"
+# description = "BUILD WITH THE POWER OF DIGITAL CASH."
+# copyright = "Copy, _right?_ :thinking_face:"
+
+dateFormat = "January 2, 2006"
+
+[params]
+  # mainSections = ["section1", "section2"]
+
+[author]
+  # name = "boop.eth"
+  # headline = "Beep, bop"
+  # bio = "Human-ish"
