@@ -1,0 +1,14 @@
+<div class="">
+  <div
+    class="absolute -inset-px rounded-xl border-2 border-transparent opacity-0 [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.sky.50)),var(--quick-links-hover-bg,theme(colors.sky.50)))_padding-box,linear-gradient(to_top,theme(colors.indigo.400),theme(colors.cyan.400),theme(colors.sky.500))_border-box] group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.slate.800)]"
+  ></div>
+  <div class="relative overflow-hidden rounded-xl">
+    <h2 class="text-lg font-display text-slate-900 dark:text-white mb-2">
+      {{ .Date.Format "January 2006" }}
+    </h2>
+    <div>{{ .Content }}</div>
+    <p class="text-slate-700 dark:text-slate-400 mt-1 text-sm">
+      {{ .Description }}
+    </p>
+  </div>
+</div>

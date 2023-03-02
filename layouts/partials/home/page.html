@@ -1,0 +1,80 @@
+<article class="max-w-full prose dark:prose-invert">
+  <section>{{ .Content | emojify }}</section>
+</article>
+<section>
+  <div class="mx-auto max-w-7xl px-6 lg:px-8 text-neutral-900 dark:text-neutral">
+    <div class="mx-auto my-24 max-w-2xl sm:text-center ">
+      <h2
+        class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+      >
+        {{ .Site.Params.homepage.headline }}
+      </h2>
+      <p class="mt-6 text-lg leading-8 text-gray-600">
+        {{ .Site.Params.homepage.summary }}
+      </p>
+    </div>
+  </div>
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <dl
+      class="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16"
+    >
+      {{ range .Site.Params.homepage.features }}
+      <div class="relative pl-9 text-neutral-900 dark:text-neutral">
+        {{- $img := resources.Get .img }} {{- if $img }}
+        <img
+          src="{{ $img.RelPermalink }}"
+          width="{{ div $img.Width 2 }}"
+          height="{{ div $img.Height 2 }}"
+          class="max-h-[10rem] max-w-[10rem] object-scale-down object-left mb-3"
+          alt="{{ .headline }}"
+        />
+        {{- end }}
+        <dt class="inline font-bold">{{ .headline }}</dt>
+        <dd class="inline">{{ .summary }}</dd>
+      </div>
+      {{ end }}
+    </dl>
+  </div>
+
+  <div class="mx-auto max-w-7xl py-24 sm:px-6 lg:px-8">
+    <div
+      class="relative isolate overflow-hidden bg-neutral-900 dark:bg-neutral px-6 py-16 text-center shadow-2xl sm:rounded-3xl sm:px-16"
+    >
+      <h2
+        class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-neutral dark:text-neutral-900 sm:text-4xl"
+      >
+        {{ .Site.Params.homepage.communityHeadline }}
+      </h2>
+      <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-neutral-300 dark:text-neutral-700">
+        {{ .Site.Params.homepage.communitySummary }}
+      </p>
+      <div class="mt-10 flex items-center justify-center gap-x-6">
+        <a
+          href="#"
+          class="rounded-md bg-neutral dark:bg-neutral-900 px-3.5 py-2.5 text-sm font-semibold text-neutral-900 dark:text-neutral shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+        >
+          Join our Discord <span aria-hidden="true">→</span></a
+        >
+      </div>
+      <svg
+        viewBox="0 0 1024 1024"
+        class="absolute top-1/2 left-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
+        aria-hidden="true"
+      >
+        <circle
+          cx="512"
+          cy="512"
+          r="512"
+          fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)"
+          fill-opacity="0.7"
+        />
+        <defs>
+          <radialGradient id="827591b1-ce8c-4110-b064-7cb85a0b1217">
+            <stop stop-color="#6dcef5" />
+            <stop offset="1" stop-color="#6dcef5" />
+          </radialGradient>
+        </defs>
+      </svg>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,40 @@
+{{ define "main" }} {{ $toc := and (.Params.showTableOfContents | default
+(.Site.Params.list.showTableOfContents | default false)) (in .TableOfContents
+"<ul") }}
+<header>
+  {{ if .Params.showBreadcrumbs | default (.Site.Params.list.showBreadcrumbs |
+  default false) }} {{ partial "breadcrumbs.html" . }} {{ end }}
+  <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+    {{ .Title }}
+  </h1>
+</header>
+<section
+  class="{{ if $toc -}}
+      mt-12
+    {{- else -}}
+      mt-0
+    {{- end }}  flex max-w-full flex-col dark:prose-invert lg:flex-row"
+>
+  <div class="min-w-0 min-h-0 grow">
+    {{ range first 1 .Pages.ByDate.Reverse }}
+    <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
+      Latest Update: {{ .Date.Format "January 2006" }}
+    </h2>
+    <div class="my-8 pb-8 border-b border-neutral-300">{{ .Content }}</div>
+    {{ end }}
+  </div>
+</section>
+{{ if gt (len .Data.Pages) 1 }}
+<section>
+  <h3 class="text-2xl mb-4">Previous Updates:</h3>
+  <div class="not-prose grid grid-cols-1 gap-6 sm:grid-cols-2">
+    {{ range after 1 .Pages.ByDate.Reverse }} 
+    {{ partial "update-item.html" . }} 
+    {{ end }}
+  </div>
+</section>
+{{ else }}
+<span class="italic text-sm text-neutral-500">There are no previous monthly updates. Previous monthly updates will appear here as an archive.</span>
+{{ end }}
+
+{{ end }}

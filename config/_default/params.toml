@@ -7,28 +7,39 @@
 
 colorScheme = "congo"
 defaultAppearance = "light" # valid options: light or dark
-autoSwitchAppearance = true
+autoSwitchAppearance = false
 
-enableSearch = true
+enableSearch = false
 enableCodeCopy = true
 
 # robots = ""
 
 [header]
   layout = "basic" # valid options: basic, hamburger, hybrid, custom
-  # logo = "img/logo.jpg"
-  showTitle = true
+  logo = "img/logo.png"
+  showTitle = false
 
 [footer]
   showCopyright = true
-  showThemeAttribution = true
+  showThemeAttribution = false
   showAppearanceSwitcher = true
   showScrollToTop = true
+  disclaimer = "† This website is maintained by the Phonon DAO. The contents and opinions of this website are those of the Phonon DAO. The Phonon DAO provides links to cryptocurrency exchanges as a service to the public. The Phonon DAO does not warrant that the information provided by these websites is correct, complete, and up-to-date. The Phonon DAO is not responsible for their content and expressly rejects any liability for damages of any kind resulting from the use, reference to, or reliance on any information contained within these websites."
 
 [homepage]
   layout = "custom" # valid options: page, profile, custom
-  showRecent = true
-  recentLimit = 5
+  headline = "Build with the power of digital cash"
+  summary = "Phonon revolutionizes the tools for global settlement and provides them to the world. Open sourced. Peer-to-peer. Gamechanger."
+  features = [
+    { img = "img/interoperable.png", headline = "Interoperable.", summary = "Phonon is cross-chain, right out of the box."},
+    { img = "img/no_fees.png", headline = "No Fees.", summary = "Send crypto cross-chain bridges. No gas. No problem."},
+    { img = "img/secure.png", headline = "Secure.", summary = "Give any digital asset the properties of cash."},
+    { img = "img/p2p.png", headline = "P2P.", summary = "We’re used to transactions being validated by miners or stakers. That’s not how this works. Phonon is peer-to-peer."},
+    { img = "img/faster.png", headline = "Faster.", summary = "Capable of near instant transfers, orders of magnitude faster than any exchange, payment rail, across any class of digital asset"},
+    { img = "img/scalable.png", headline = "Scalable.", summary = "Phonon is capable of more transactions per second than Visa, Mastercard, Ethereum, and Bitcoin. Combined."},
+  ]
+  communityHeadline = "Be a part of the community"
+  communitySummary = "If you are interested in Phonon Network the best way to our discord. Connect with others who are helping build this stay up to date with everything that is going on is to join technology. Whether your talents are coding, marketing, or even just talking in chat, we want you to be a part of the DAO and be as excited as we are about Phonon."
 
 [article]
   showDate = true
@@ -51,11 +62,11 @@ enableCodeCopy = true
 
 [list]
   showBreadcrumbs = true
-  showSummary = false
+  showSummary = true
   showTableOfContents = true
   showTaxonomies = false
   groupByYear = false
-  paginationWidth = 1
+  paginationWidth = 100
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
@@ -72,3 +83,9 @@ enableCodeCopy = true
   # bing = ""
   # pinterest = ""
   # yandex = ""
+
+[topBanner]
+  date = "2023-02-28"
+  tagline = "Want to know what we're working on? Watch our monthly update."
+  callToAction = "Watch Monthly Update"
+  pageRef = "updates"

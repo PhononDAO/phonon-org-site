@@ -19,7 +19,9 @@ hugo.linux
 # Lighthouse generated output
 .lighthouseci
 
+# Stupid stuff
+.DS_Store
+
 # Project specific files
 TODO
 
-.DS_Store
