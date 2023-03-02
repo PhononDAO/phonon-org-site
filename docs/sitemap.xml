@@ -3,246 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
-  
-    
       <url>
-            <loc>https://phonondao.github.io/phonon-org-site/docs/</loc>
-            <lastmod>2022-01-20T00:00:00+00:00</lastmod>
+            <loc>https://phonondao.github.io/phonon-org-site/updates/2023-02/</loc>
+            <lastmod>2023-02-28T00:00:00+00:00</lastmod>
           </url>
     
   
     
-  
-    
-  
-    
       <url>
-            <loc>https://phonondao.github.io/phonon-org-site/docs/version-2/upgrade/</loc>
-            <lastmod>2022-01-20T00:00:00+00:00</lastmod>
+            <loc>https://phonondao.github.io/phonon-org-site/updates/</loc>
+            <lastmod>2023-02-28T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>https://phonondao.github.io/phonon-org-site/</loc>
-            <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+            <lastmod>2023-02-28T00:00:00+00:00</lastmod>
           </url>
     
   
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/docs/version-2/</loc>
-            <lastmod>2022-01-19T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/docs/installation/</loc>
-            <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/docs/getting-started/</loc>
-            <lastmod>2020-08-15T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/docs/configuration/</loc>
-            <lastmod>2020-08-14T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/samples/</loc>
-            <lastmod>2023-01-23T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/samples/icons/</loc>
-            <lastmod>2023-01-23T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/users/</loc>
-            <lastmod>2020-08-14T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/docs/homepage-layout/</loc>
-            <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/docs/front-matter/</loc>
-            <lastmod>2020-08-12T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/docs/shortcodes/</loc>
-            <lastmod>2020-08-11T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/docs/partials/</loc>
-            <lastmod>2020-08-10T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/docs/content-examples/</loc>
-            <lastmod>2020-08-09T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/docs/advanced-customisation/</loc>
-            <lastmod>2020-08-08T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/docs/hosting-deployment/</loc>
-            <lastmod>2020-08-07T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/samples/markdown/</loc>
-            <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/samples/rich-content/</loc>
-            <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/samples/mathematical-notation/</loc>
-            <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/samples/charts/</loc>
-            <lastmod>2019-03-06T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/samples/diagrams-flowcharts/</loc>
-            <lastmod>2019-03-06T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://phonondao.github.io/phonon-org-site/samples/emoji/</loc>
-            <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-          </url>
     
   
 </urlset>
