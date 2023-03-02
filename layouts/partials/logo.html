@@ -1,14 +1,15 @@
 {{- if .Site.Params.header.logo }}
   {{- $logo := resources.Get .Site.Params.header.logo }}
   {{- if $logo }}
-    <a href="{{ "" | relLangURL }}" class="mr-2">
+    <a href="{{ "" | relLangURL }}" class="flex items-center gap-x-2">
       <img
         src="{{ $logo.RelPermalink }}"
         width="{{ div $logo.Width 2 }}"
         height="{{ div $logo.Height 2 }}"
-        class="max-h-[10rem] max-w-[10rem] object-scale-down object-left"
+        class="max-h-[5rem] max-w-[5rem] object-scale-down"
         alt="{{ .Site.Title }}"
       />
+      <div class="text-3xl font-bandeins-sans">PHONON</div>  
     </a>
   {{- end }}
 {{- end }}

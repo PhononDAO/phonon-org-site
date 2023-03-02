@@ -48,6 +48,13 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        'bandeins-sans': ['BandeinsSansRegular'],
+        'bandeins-sans-semibold': ['BandeinsSansSemiBold'],
+        'bandeins-sans-bold': ['BandeinsSansBold'],
+        'bandeins-sans-light': ['BandeinsSansLight'],
+        'noto-sans-mono': ['Noto Sans Mono', 'monospace'],
+      },
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {

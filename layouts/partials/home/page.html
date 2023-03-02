@@ -16,10 +16,10 @@
   </div>
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <dl
-      class="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16"
+      class="mx-auto grid max-w-2xl grid-cols-1 gap-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-16"
     >
       {{ range .Site.Params.homepage.features }}
-      <div class="relative pl-9 text-neutral-900 dark:text-neutral">
+      <div class="relative text-neutral-900 dark:text-neutral">
         {{- $img := resources.Get .img }} {{- if $img }}
         <img
           src="{{ $img.RelPermalink }}"

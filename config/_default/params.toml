@@ -24,6 +24,7 @@ enableCodeCopy = true
   showThemeAttribution = false
   showAppearanceSwitcher = true
   showScrollToTop = true
+  copyright = "Phonon DAO. All rights reserved."
   disclaimer = "† This website is maintained by the Phonon DAO. The contents and opinions of this website are those of the Phonon DAO. The Phonon DAO provides links to cryptocurrency exchanges as a service to the public. The Phonon DAO does not warrant that the information provided by these websites is correct, complete, and up-to-date. The Phonon DAO is not responsible for their content and expressly rejects any liability for damages of any kind resulting from the use, reference to, or reliance on any information contained within these websites."
 
 [homepage]
