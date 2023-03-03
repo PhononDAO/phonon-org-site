@@ -1,5 +1,34 @@
 /*! Congo v2.5.2 | MIT License | https://github.com/jpanther/congo */
 
+@font-face {
+  font-family: 'BandeinsSansBold';
+
+  src: local('BandeinsSansBold'),
+    url(./../fonts/bandeins-sans/BandeinsSansBold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'BandeinsSansRegular';
+
+  src: local('BandeinsSansRegular'),
+    url(./../fonts/bandeins-sans/BandeinsSansRegular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'BandeinsSansLight';
+
+  src: local('BandeinsSansLight'),
+    url(./../fonts/bandeins-sans/BandeinsSansLight.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'BandeinsSansSemiBold';
+
+  src: local('BandeinsSansSemiBold'),
+    url(./../fonts/bandeins-sans/BandeinsSansSemiBold.otf)
+      format('opentype');
+}
+
 /*! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
 
 /*
@@ -2470,10 +2499,6 @@ body:has(#menu-controller:checked) {
 
 .align-text-bottom {
   vertical-align: text-bottom;
-}
-
-.font-bandeins-sans {
-  font-family: BandeinsSansRegular;
 }
 
 .font-bandeins-sans-bold {
