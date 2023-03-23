@@ -18,8 +18,14 @@
 
 [[main]]
   name = "Governance"
-  url = "https://gov.phonon.org"
   weight = 20
+  [main.params]
+	submenu = [
+		{ name = "Governance Wiki", url = "https://docs.phonon.org/the-phonon-dao/governance-wiki"},
+		{ name = "Discourse Forum", url = "https://gov.phonon.org/"},
+		{ name = "Snapshot Voting", url = "https://vote.phonon.org/"},
+	]
+	
   
 [[main]]
   name = "Blog"

@@ -40,8 +40,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/phonon-org-site/css/main.bundle.min.3c6e63af827a9709a90123dcb19a25b905027b40786c66d643ba3b4240fa0e35caccb81252231f7821fe122d3ab974a751ad8d542c2d67a6c876270fdc2ae73e.css"
-    integrity="sha512-PG5jr4J6lwmpASPcsZoluQUCe0B4bGbWQ7o7QkD6DjXKzLgSUiMfeCH&#43;Ei06uXSnUa2NVCwtZ6bIdicP3CrnPg=="
+    href="/phonon-org-site/css/main.bundle.min.de4003e3fd34bbf7adceea414b91d396c44415b33edfe17ac688a73053ae74fe163d5f36804de9bfb37b33cf3b18821f736348e73e866135236c6f3e111494cd.css"
+    integrity="sha512-3kAD4/00u/etzupBS5HTlsREFbM&#43;3&#43;F6xoinMFOudP4WPV82gE3pv7N7M887GIIfc2NI5z6GYTUjbG8&#43;ERSUzQ=="
   />
   
   
@@ -216,7 +216,7 @@
             <li
               class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
             >
-              
+			 
                 <a
                   href="https://docs.phonon.org"
                   title=""
@@ -234,25 +234,37 @@
             <li
               class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
             >
-              
-                <a
-                  href="https://gov.phonon.org"
-                  title=""
-                  
-                  >
-                    <span
-                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                      >Governance</span
-                    >
-                  </a
-                >
+			 
+			 	<div class="relative">
+				<button type="button" class="inline-flex items-center gap-x-1" aria-expanded="false" onClick="toggleSubmenu(this)">
+					<span
+					class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+					>Governance</span
+				  >
+				  <svg class="h-5 w-5 block transition duration-150" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+					<path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+				  </svg>
+				</button>
+			  
+				<div class="submenu absolute opacity-0 transition duration-150 left-1/2 z-10 mt-5 flex w-screen max-w-min -translate-x-1/2 px-4">
+				  <div class="w-56 shrink rounded-md bg-neutral p-4 text-sm font-semibold leading-6 text-gray-900 shadow-lg ring-1 ring-gray-900/5">
+					
+						<a href="https://docs.phonon.org/the-phonon-dao/governance-wiki" class="block p-2 text-left decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2">Governance Wiki</a>
+					
+						<a href="https://gov.phonon.org/" class="block p-2 text-left decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2">Discourse Forum</a>
+					
+						<a href="https://vote.phonon.org/" class="block p-2 text-left decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2">Snapshot Voting</a>
+					
+				  </div>
+				</div>
+			  </div>
               
             </li>
           
             <li
               class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
             >
-              
+			 
                 <a
                   href="https://blog.phonon.org"
                   title=""
@@ -270,7 +282,7 @@
             <li
               class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
             >
-              
+			 
                 <a
                   href="https://github.com/PhononDAO/"
                   title=""
@@ -296,7 +308,7 @@
             <li
               class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
             >
-              
+			 
                 <a
                   href="https://twitter.com/PhononDAO"
                   title=""

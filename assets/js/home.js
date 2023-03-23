@@ -25,3 +25,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
     })
   );
 });
+
+function toggleSubmenu(event) {
+	event.getElementsByTagName("svg").item(0).classList.toggle("rotate-180");
+	event.nextSibling.nextSibling.classList.toggle("opacity-100");
+}
