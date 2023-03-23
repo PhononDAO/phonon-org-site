@@ -1,5 +1,624 @@
-<!doctype html><html lang=en-au dir=ltr class=scroll-smooth data-default-appearance=light data-auto-appearance=false><head><meta name=generator content="Hugo 0.110.0"><meta charset=utf-8><meta http-equiv=content-language content="en-au"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=theme-color content="rgb(255,255,255)"><meta http-equiv=x-ua-compatible content="ie=edge"><title>Phonon</title><meta name=title content="Phonon"><meta name=description content="Build with the power of digital cash."><link rel=canonical href=https://phonondao.github.io/phonon-org-site/><link rel=alternate type=application/rss+xml href=/phonon-org-site/index.xml title=Phonon><link rel=alternate type=application/json href=/phonon-org-site/index.json title=Phonon><link type=text/css rel=stylesheet href=/phonon-org-site/css/main.bundle.min.8d5d3648d82fe5737715b6f554858d9fc03f4cdcc4590903c9d78232ba5126eaa3284e8bb26188ac577a525d296a9cc47c010fdba442b6e703e9a7eb642f1291.css integrity="sha512-jV02SNgv5XN3Fbb1VIWNn8A/TNzEWQkDydeCMrpRJuqjKE6LsmGIrFd6Ul0papzEfAEP26RCtucD6afrZC8SkQ=="><script type=text/javascript src=/phonon-org-site/js/appearance.min.c6198a5ecbc6c7b35a8568d29315f50cf5d775d4461c515a476359767f1a745c245aa83fa96b0c7d83da976cf77481e1fc29537a2391a53ffe69a991638802e6.js integrity="sha512-xhmKXsvGx7NahWjSkxX1DPXXddRGHFFaR2NZdn8adFwkWqg/qWsMfYPal2z3dIHh/ClTeiORpT/+aamRY4gC5g=="></script>
-<script defer type=text/javascript id=script-bundle src=/phonon-org-site/js/main.bundle.min.9947db70e5b36e741e53f8531bd734741b3fc7a688f7b5d749fc5433c48efc252f47bdf44e471570a550fc051b87712799014040e6349b38d64448b94e84e45a.js integrity="sha512-mUfbcOWzbnQeU/hTG9c0dBs/x6aI97XXSfxUM8SO/CUvR730TkcVcKVQ/AUbh3EnmQFAQOY0mzjWREi5ToTkWg==" data-copy=Copy data-copied=Copied></script>
-<link rel=apple-touch-icon sizes=180x180 href=/phonon-org-site/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/phonon-org-site/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/phonon-org-site/favicon-16x16.png><link rel=manifest href=/phonon-org-site/site.webmanifest><meta property="og:title" content="Phonon"><meta property="og:description" content="Build with the power of digital cash."><meta property="og:type" content="website"><meta property="og:url" content="https://phonondao.github.io/phonon-org-site/"><meta property="og:site_name" content="Phonon"><meta name=twitter:card content="summary"><meta name=twitter:title content="Phonon"><meta name=twitter:description content="Build with the power of digital cash."><script type=application/ld+json>{"@context":"https://schema.org","@type":"WebSite","@id":"https:\/\/phonondao.github.io\/phonon-org-site\/","name":"Phonon","description":"Build with the power of digital cash.","inLanguage":"en-au","url":"https:\/\/phonondao.github.io\/phonon-org-site\/","publisher":{"@type":"Person","name":""}}</script><script async src="https://www.googletagmanager.com/gtag/js?id=GTM-P3JHBKK"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","GTM-P3JHBKK")</script></head><body class="bg-neutral dark:bg-neutral-800 dark:text-neutral"><div class="relative isolate flex items-center gap-x-6 overflow-hidden bg-neutral py-2.5 px-6 sm:px-3.5 sm:before:flex-1"><svg viewBox="0 0 577 310" aria-hidden="true" class="absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 w-[36.0625rem] -translate-y-1/2 transform-gpu blur-2xl"><path id="1d77c128-3ec1-4660-a7f6-26c7006705ad" fill="url(#49a52b64-16c6-4eb9-931b-8e24bf34e053)" fill-opacity=".3" d="m142.787 168.697-75.331 62.132L.016 88.702l142.771 79.995 135.671-111.9c-16.495 64.083-23.088 173.257 82.496 97.291C492.935 59.13 494.936-54.366 549.339 30.385c43.523 67.8 24.892 159.548 10.136 196.946l-128.493-95.28-36.628 177.599-251.567-140.953z"/><defs><linearGradient id="49a52b64-16c6-4eb9-931b-8e24bf34e053" x1="614.778" x2="-42.453" y1="26.617" y2="96.115" gradientUnits="userSpaceOnUse"><stop stop-color="#9089fc"/><stop offset="1" stop-color="#ff80b5"/></linearGradient></defs></svg><svg viewBox="0 0 577 310" aria-hidden="true" class="absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 w-[36.0625rem] -translate-y-1/2 transform-gpu blur-2xl"><use href="#1d77c128-3ec1-4660-a7f6-26c7006705ad"/></svg><div class="flex flex-wrap items-center gap-y-2 gap-x-4"><div class="text-sm md:flex gap-x-4 leading-6 text-neutral-900"><div class=font-semibold>February 2023</div><div>Want to know what we're working on?</div></div><a href=/phonon-org-site/updates class="flex-none rounded-full bg-neutral-800 py-1 px-3.5 text-sm font-semibold text-neutral shadow-sm hover:bg-neutral-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">Watch Monthly Update <span aria-hidden=true>&rarr;</span></a></div><div class="flex flex-1 justify-end"></div></div><div class="m-auto flex h-screen max-w-7xl flex-col px-6 text-lg leading-7 text-neutral-900 sm:px-14 md:px-24 lg:px-32"><header class="py-6 font-semibold text-neutral-900 dark:text-neutral print:hidden sm:py-10"><nav class="md:flex items-start justify-between sm:items-center"><div class="flex flex-row items-center"><a href=/phonon-org-site/ class="flex items-center gap-x-2"><img src=/phonon-org-site/img/logo.png width=239 height=168 class="max-h-[5rem] max-w-[5rem] object-scale-down" alt=Phonon><div class="text-3xl font-bandeins-sans-bold">PHONON</div></a></div><ul class="flex gap-x-3 mt-4 md:mt-0 list-none ltr:text-right rtl:text-left"><li class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a href=https://docs.phonon.org title><span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Docs</span></a></li><li class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a href=https://gov.phonon.org title><span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Governance</span></a></li><li class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a href=https://blog.phonon.org title><span class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">Blog</span></a></li><li class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a href=https://github.com/PhononDAO/ title target=_blank><span class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"><span class="relative inline-block align-text-bottom icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentcolor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6.0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6.0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3.0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1.0-6.2-.3-40.4-.3-61.4.0.0-70 15-84.7-29.8.0.0-11.4-29.1-27.8-36.6.0.0-22.9-15.7 1.6-15.4.0.0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5.0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9.0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4.0 33.7-.3 75.4-.3 83.6.0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6.0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9.0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span></span></a></li><li class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a href=https://twitter.com/PhononDAO title target=_blank><span class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"><span class="relative inline-block align-text-bottom icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentcolor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645.0 138.72-105.583 298.558-298.558 298.558-59.452.0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055.0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421.0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391.0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04.0-57.828 46.782-104.934 104.934-104.934 30.213.0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></span></span></a></li></ul></nav></header><div class="relative flex grow flex-col"><main id=main-content class=grow><div id=page><article class="max-w-full prose dark:prose-invert"><section><div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden><iframe src=https://www.youtube.com/embed/RWs7duPZyP4 style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 allowfullscreen title="YouTube Video"></iframe></div></section></article><section><div class="mx-auto max-w-7xl px-6 lg:px-8 text-neutral-900 dark:text-neutral"><div class="mx-auto my-24 max-w-2xl sm:text-center"><h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Build with the power of digital cash</h2><p class="mt-6 text-lg leading-8 text-gray-600">Phonon revolutionizes the tools for global settlement and provides them to the world. Open sourced. Peer-to-peer. Gamechanger.</p></div></div><div class="mx-auto max-w-7xl px-6 lg:px-8"><dl class="mx-auto grid max-w-2xl grid-cols-1 gap-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-16"><div class="relative text-neutral-900 dark:text-neutral"><img src=/phonon-org-site/img/interoperable.png width=42 height=40 class="max-h-[10rem] max-w-[10rem] object-scale-down object-left mb-3" alt=Interoperable.><dt class="inline font-bold">Interoperable.</dt><dd class=inline>Phonon is cross-chain, right out of the box.</dd></div><div class="relative text-neutral-900 dark:text-neutral"><img src=/phonon-org-site/img/no_fees.png width=42 height=40 class="max-h-[10rem] max-w-[10rem] object-scale-down object-left mb-3" alt="No Fees."><dt class="inline font-bold">No Fees.</dt><dd class=inline>Send crypto cross-chain bridges. No gas. No problem.</dd></div><div class="relative text-neutral-900 dark:text-neutral"><img src=/phonon-org-site/img/secure.png width=42 height=40 class="max-h-[10rem] max-w-[10rem] object-scale-down object-left mb-3" alt=Secure.><dt class="inline font-bold">Secure.</dt><dd class=inline>Give any digital asset the properties of cash.</dd></div><div class="relative text-neutral-900 dark:text-neutral"><img src=/phonon-org-site/img/p2p.png width=42 height=40 class="max-h-[10rem] max-w-[10rem] object-scale-down object-left mb-3" alt=P2P.><dt class="inline font-bold">P2P.</dt><dd class=inline>We’re used to transactions being validated by miners or stakers. That’s not how this works. Phonon is peer-to-peer.</dd></div><div class="relative text-neutral-900 dark:text-neutral"><img src=/phonon-org-site/img/faster.png width=42 height=40 class="max-h-[10rem] max-w-[10rem] object-scale-down object-left mb-3" alt=Faster.><dt class="inline font-bold">Faster.</dt><dd class=inline>Capable of near instant transfers, orders of magnitude faster than any exchange, payment rail, across any class of digital asset</dd></div><div class="relative text-neutral-900 dark:text-neutral"><img src=/phonon-org-site/img/scalable.png width=42 height=40 class="max-h-[10rem] max-w-[10rem] object-scale-down object-left mb-3" alt=Scalable.><dt class="inline font-bold">Scalable.</dt><dd class=inline>Phonon is capable of more transactions per second than Visa, Mastercard, Ethereum, and Bitcoin. Combined.</dd></div></dl></div><div class="mx-auto max-w-7xl py-24 sm:px-6 lg:px-8"><div class="relative isolate overflow-hidden bg-neutral-900 dark:bg-neutral px-6 py-16 text-center shadow-2xl sm:rounded-3xl sm:px-16"><h2 class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-neutral dark:text-neutral-900 sm:text-4xl">Be a part of the community</h2><p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-neutral-300 dark:text-neutral-700">If you are interested in Phonon Network the best way to our discord. Connect with others who are helping build this stay up to date with everything that is going on is to join technology. Whether your talents are coding, marketing, or even just talking in chat, we want you to be a part of the DAO and be as excited as we are about Phonon.</p><div class="mt-10 flex items-center justify-center gap-x-6"><a href=https://discord.gg/phonon class="rounded-md bg-neutral dark:bg-neutral-900 px-3.5 py-2.5 text-sm font-semibold text-neutral-900 dark:text-neutral shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white" target=_blank>Join our Discord <span aria-hidden=true>→</span></a></div><svg viewBox="0 0 1024 1024" class="absolute top-1/2 left-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]" aria-hidden="true"><circle cx="512" cy="512" r="512" fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)" fill-opacity=".7"/><defs><radialGradient id="827591b1-ce8c-4110-b064-7cb85a0b1217"><stop stop-color="#6dcef5"/><stop offset="1" stop-color="#6dcef5"/></radialGradient></defs></svg></div></div></section></div><script defer type=text/javascript src=/phonon-org-site/js/home.min.096b4f9179ef7ad3af5490b284941a23eefe42da81c33d5cf7a38c0ce35dfa2ed34c2b8da784c593f6fbe5c5615bbabcc3b700aef32a7e6b67d438b897b70295.js integrity="sha512-CWtPkXnvetOvVJCyhJQaI+7+QtqBwz1c96OMDONd+i7TTCuNp4TFk/b75cVhW7q8w7cArvMqfmtn1Di4l7cClQ=="></script></main><footer class="py-10 print:hidden"><div class="md:flex items-center justify-between"><div><p class="text-sm text-neutral-500 dark:text-neutral-400">&copy;
-2023. Phonon DAO. All rights reserved.</p></div><nav class="text-base font-medium text-neutral-500 dark:text-neutral-400"><ul class="flex flex-row gap-x-3 justify-between mt-4 items-center list-none"><li class="mb-1 group ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a href=https://blog.phonon.org title target=_blank><span class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"><span class="relative inline-block align-text-bottom icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentcolor" d="M180.5 74.262C80.813 74.262.0 155.633.0 256S80.819 437.738 180.5 437.738 361 356.373 361 256 280.191 74.262 180.5 74.262zm288.25 10.646c-49.845.0-90.245 76.619-90.245 171.095s40.406 171.1 90.251 171.1 90.251-76.619 90.251-171.1H559C559 161.5 518.6 84.908 468.752 84.908zm139.506 17.821c-17.526.0-31.735 68.628-31.735 153.274s14.2 153.274 31.735 153.274S640 340.631 640 256c0-84.649-14.215-153.271-31.742-153.271z"/></svg></span></span></a></li><li class="mb-1 group ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a href=https://discord.gg/phonon title target=_blank><span class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"><span class="relative inline-block align-text-bottom icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentcolor" d="M524.531 69.836a1.5 1.5.0 00-.764-.7A485.065 485.065.0 00404.081 32.03a1.816 1.816.0 00-1.923.91 337.461 337.461.0 00-14.9 30.6 447.848 447.848.0 00-134.426.0 309.541 309.541.0 00-15.135-30.6 1.89 1.89.0 00-1.924-.91A483.689 483.689.0 00116.085 69.137a1.712 1.712.0 00-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016.0 00.765 1.375A487.666 487.666.0 00176.02 479.918a1.9 1.9.0 002.063-.676A348.2 348.2.0 00208.12 430.4a1.86 1.86.0 00-1.019-2.588 321.173 321.173.0 01-45.868-21.853 1.885 1.885.0 01-.185-3.126c3.082-2.309 6.166-4.711 9.109-7.137a1.819 1.819.0 011.9-.256c96.229 43.917 200.41 43.917 295.5.0a1.812 1.812.0 011.924.233c2.944 2.426 6.027 4.851 9.132 7.16a1.884 1.884.0 01-.162 3.126 301.407 301.407.0 01-45.89 21.83 1.875 1.875.0 00-1 2.611 391.055 391.055.0 0030.014 48.815 1.864 1.864.0 002.063.7A486.048 486.048.0 00610.7 405.729a1.882 1.882.0 00.765-1.352C623.729 277.594 590.933 167.465 524.531 69.836zM222.491 337.58c-28.972.0-52.844-26.587-52.844-59.239S193.056 219.1 222.491 219.1c29.665.0 53.306 26.82 52.843 59.239.0 32.654-23.41 59.241-52.843 59.241zm195.38.0c-28.971.0-52.843-26.587-52.843-59.239S388.437 219.1 417.871 219.1c29.667.0 53.307 26.82 52.844 59.239.0 32.654-23.177 59.241-52.844 59.241z"/></svg></span></span></a></li><li class="mb-1 group ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a href=https://github.com/PhononDAO/ title target=_blank><span class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"><span class="relative inline-block align-text-bottom icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentcolor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6.0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6.0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3.0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1.0-6.2-.3-40.4-.3-61.4.0.0-70 15-84.7-29.8.0.0-11.4-29.1-27.8-36.6.0.0-22.9-15.7 1.6-15.4.0.0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5.0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9.0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4.0 33.7-.3 75.4-.3 83.6.0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6.0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9.0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span></span></a></li><li class="mb-1 group ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a href=https://www.instagram.com/phonondao/ title target=_blank><span class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"><span class="relative inline-block align-text-bottom icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentcolor" d="M224.1 141c-63.6.0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1.0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9.0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9.0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9.0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9.0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8.0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></span></span></a></li><li class="mb-1 group ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a href=https://twitter.com/PhononDAO title target=_blank><span class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"><span class="relative inline-block align-text-bottom icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentcolor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645.0 138.72-105.583 298.558-298.558 298.558-59.452.0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055.0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421.0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391.0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04.0-57.828 46.782-104.934 104.934-104.934 30.213.0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></span></span></a></li><li class="mb-1 group ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"><a href=https://www.youtube.com/@PhononDAO title target=_blank><span class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"><span class="relative inline-block align-text-bottom icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentcolor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78.0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></span></span></a></li></ul></nav><div class="cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"><button class="block mx-auto" id=appearance-switcher-0 type=button aria-label="appearance switcher"><div class="flex items-center justify-center w-12 h-12 dark:hidden" title="Switch to dark appearance"><span class="relative inline-block align-text-bottom icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentcolor" d="M32 256C32 132.2 132.3 32 255.8 32c11.36.0 29.7 1.668 40.9 3.746 9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3 9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480 132.1 480 32 379.6 32 256z"/></svg></span></div><div class="items-center justify-center hidden w-12 h-12 dark:flex" title="Switch to light appearance"><span class="relative inline-block align-text-bottom icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentcolor" d="M256 159.1c-53.02.0-95.1 42.98-95.1 95.1s41.2 96.9 95.1 96.9 95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347l-63.2-91.9 63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89 164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6 12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256 2.74 347.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7 19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109 109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69.0-127.1-57.31-127.1-127.1.0-70.69 57.31-127.1 127.1-127.1S383.1 186.2 383.1 256c0 70.7-56.4 127.1-127.1 127.1z"/></svg></span></div></button></div></div><div class="text-center text-xs mt-4 dark:text-neutral">† This website is maintained by the Phonon DAO. The contents and opinions of this website are those of the Phonon DAO. The Phonon DAO provides links to cryptocurrency exchanges as a service to the public. The Phonon DAO does not warrant that the information provided by these websites is correct, complete, and up-to-date. The Phonon DAO is not responsible for their content and expressly rejects any liability for damages of any kind resulting from the use, reference to, or reliance on any information contained within these websites.</div></footer><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3JHBKK" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript></div></div></body></html>
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en-AU"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="false"
+><head>
+	<meta name="generator" content="Hugo 0.104.3" />
+  <meta charset="utf-8" />
+  
+    <meta http-equiv="content-language" content="en-au" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(255,255,255)" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Phonon</title>
+    <meta name="title" content="Phonon" />
+  
+  <meta name="description" content="Make cryptocurrency portable" />
+  
+  
+  
+  <link rel="canonical" href="https://phonondao.github.io/phonon-org-site/" />
+  <link rel="alternate" type="application/rss+xml" href="/phonon-org-site/index.xml" title="Phonon" />
+  <link rel="alternate" type="application/json" href="/phonon-org-site/index.json" title="Phonon" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/phonon-org-site/css/main.bundle.min.3c6e63af827a9709a90123dcb19a25b905027b40786c66d643ba3b4240fa0e35caccb81252231f7821fe122d3ab974a751ad8d542c2d67a6c876270fdc2ae73e.css"
+    integrity="sha512-PG5jr4J6lwmpASPcsZoluQUCe0B4bGbWQ7o7QkD6DjXKzLgSUiMfeCH&#43;Ei06uXSnUa2NVCwtZ6bIdicP3CrnPg=="
+  />
+  
+  
+  <script type="text/javascript" src="/phonon-org-site/js/appearance.min.c6198a5ecbc6c7b35a8568d29315f50cf5d775d4461c515a476359767f1a745c245aa83fa96b0c7d83da976cf77481e1fc29537a2391a53ffe69a991638802e6.js" integrity="sha512-xhmKXsvGx7NahWjSkxX1DPXXddRGHFFaR2NZdn8adFwkWqg/qWsMfYPal2z3dIHh/ClTeiORpT/&#43;aamRY4gC5g=="></script>
+  
+  
+    
+    
+  
+  
+  
+    
+    <script defer type="text/javascript" id="script-bundle" src="/phonon-org-site/js/main.bundle.min.9947db70e5b36e741e53f8531bd734741b3fc7a688f7b5d749fc5433c48efc252f47bdf44e471570a550fc051b87712799014040e6349b38d64448b94e84e45a.js" integrity="sha512-mUfbcOWzbnQeU/hTG9c0dBs/x6aI97XXSfxUM8SO/CUvR730TkcVcKVQ/AUbh3EnmQFAQOY0mzjWREi5ToTkWg==" data-copy="Copy" data-copied="Copied"></script>
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/phonon-org-site/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/phonon-org-site/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/phonon-org-site/favicon-16x16.png" />
+    <link rel="manifest" href="/phonon-org-site/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Phonon" />
+<meta property="og:description" content="Make cryptocurrency portable" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://phonondao.github.io/phonon-org-site/" /><meta property="og:site_name" content="Phonon" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Phonon"/>
+<meta name="twitter:description" content="Make cryptocurrency portable"/>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https:\/\/phonondao.github.io\/phonon-org-site\/",
+    "name": "Phonon",
+    "description": "Build with the power of digital cash.",
+    "inLanguage": "en-au",
+    "url": "https:\/\/phonondao.github.io\/phonon-org-site\/",
+    
+    "publisher" : {
+      "@type": "Person",
+      "name": ""
+    }
+  }
+  </script>
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+  
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-P3JHBKK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GTM-P3JHBKK');
+</script>
+  
+  
+</head>
+<body class="bg-neutral dark:bg-neutral-800 dark:text-neutral">
+    <div
+  class="relative isolate flex items-center gap-x-6 overflow-hidden bg-neutral py-2.5 px-6 sm:px-3.5 sm:before:flex-1"
+>
+  <svg
+    viewBox="0 0 577 310"
+    aria-hidden="true"
+    class="absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 w-[36.0625rem] -translate-y-1/2 transform-gpu blur-2xl"
+  >
+    <path
+      id="1d77c128-3ec1-4660-a7f6-26c7006705ad"
+      fill="url(#49a52b64-16c6-4eb9-931b-8e24bf34e053)"
+      fill-opacity=".3"
+      d="m142.787 168.697-75.331 62.132L.016 88.702l142.771 79.995 135.671-111.9c-16.495 64.083-23.088 173.257 82.496 97.291C492.935 59.13 494.936-54.366 549.339 30.385c43.523 67.8 24.892 159.548 10.136 196.946l-128.493-95.28-36.628 177.599-251.567-140.953Z"
+    />
+    <defs>
+      <linearGradient
+        id="49a52b64-16c6-4eb9-931b-8e24bf34e053"
+        x1="614.778"
+        x2="-42.453"
+        y1="26.617"
+        y2="96.115"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#9089FC" />
+        <stop offset="1" stop-color="#FF80B5" />
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg
+    viewBox="0 0 577 310"
+    aria-hidden="true"
+    class="absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 w-[36.0625rem] -translate-y-1/2 transform-gpu blur-2xl"
+  >
+    <use href="#1d77c128-3ec1-4660-a7f6-26c7006705ad" />
+  </svg>
+  <div class="flex flex-wrap items-center gap-y-2 gap-x-4">
+    <div class="text-sm md:flex gap-x-4 leading-6 text-neutral-900">
+      <div class="font-semibold">February 2023</div>
+      <div>Want to know what we're working on?</div>
+    </div>
+    <a
+      href="/phonon-org-site/updates"
+      class="flex-none rounded-full bg-neutral-800 py-1 px-3.5 text-sm font-semibold text-neutral shadow-sm hover:bg-neutral-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
+      >Watch Monthly Update <span aria-hidden="true">&rarr;</span></a>
+  </div>
+  <div class="flex flex-1 justify-end"></div>
+</div>
+
+    <div
+      class="m-auto flex h-screen max-w-7xl flex-col px-6 text-lg leading-7 text-neutral-900 sm:px-14 md:px-24 lg:px-32"
+    >
+      
+      
+        <header class="py-6 font-semibold text-neutral-900 dark:text-neutral print:hidden sm:py-10">
+  <nav class="md:flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+    <a href="/phonon-org-site/" class="flex items-center gap-x-2">
+      <img
+        src="/phonon-org-site/img/logo.png"
+        width="239"
+        height="168"
+        class="max-h-[5rem] max-w-[5rem] object-scale-down"
+        alt="Phonon"
+      />
+      <div class="text-3xl font-bandeins-sans-bold">PHONON</div>  
+    </a>
+
+      
+
+    </div>
+    
+    
+      <ul class="flex gap-x-3 mt-4 md:mt-0 list-none ltr:text-right rtl:text-left">
+        
+          
+            <li
+              class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+            >
+              
+                <a
+                  href="https://docs.phonon.org"
+                  title=""
+                  
+                  >
+                    <span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Docs</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            <li
+              class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+            >
+              
+                <a
+                  href="https://gov.phonon.org"
+                  title=""
+                  
+                  >
+                    <span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Governance</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            <li
+              class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+            >
+              
+                <a
+                  href="https://blog.phonon.org"
+                  title=""
+                  
+                  >
+                    <span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Blog</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            <li
+              class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+            >
+              
+                <a
+                  href="https://github.com/PhononDAO/"
+                  title=""
+                  target="_blank"
+                  >
+                    <span
+                      class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"
+                    >
+                      
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+
+                    </span>
+                  </a
+                >
+              
+            </li>
+          
+            <li
+              class="mb-1 group sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+            >
+              
+                <a
+                  href="https://twitter.com/PhononDAO"
+                  title=""
+                  target="_blank"
+                  >
+                    <span
+                      class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"
+                    >
+                      
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+
+  </span>
+
+
+                    </span>
+                  </a
+                >
+              
+            </li>
+          
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+      
+      <div class="relative flex grow flex-col">
+        <main id="main-content" class="grow">
+          
+  
+  
+    
+<div id="page">
+  <article class="max-w-full prose dark:prose-invert">
+  <section>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/RWs7duPZyP4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+</section>
+</article>
+<section>
+  <div
+    class="mx-auto max-w-7xl px-6 lg:px-8 text-neutral-900 dark:text-neutral"
+  >
+    <div class="mx-auto my-24 max-w-2xl sm:text-center">
+      <h2
+        class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+      >
+        Make cryptocurrency portable.
+      </h2>
+      <p class="mt-6 text-lg leading-8 text-gray-600">
+        Phonon generates and transfers cryptographic keypairs that can only ever exist in one physical location at a time. Use Phonon to send an ERC20 token directly via a text message or QR code, or literally hand someone a card with a BTC on it. Portable cryptocurrency that can move person to person without ever broadcasting to a public network.
+      </p>
+    </div>
+  </div>
+  
+
+  <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div
+      class="relative isolate overflow-hidden bg-neutral-900 dark:bg-neutral px-6 py-16 text-center shadow-2xl sm:rounded-3xl sm:px-16"
+    >
+      <h2
+        class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-neutral dark:text-neutral-900 sm:text-4xl"
+      >
+        Be a part of the community
+      </h2>
+      <div
+        class="mx-auto mt-6 max-w-3xl grid grid-cols-1 gap-y-8 text-lg leading-8 text-neutral-300 dark:text-neutral-700"
+      >
+        <p>The best way to stay connected and up-to-date with everything Phonon is to join our Discord. There you can connect directly with the community that builds the future of payment technology.</p>
+        <p>Bring your interest, and any expertise you have. All skills are relevant--coding, marketing, administration, whatever. Join our community and share your excitement for Phonon!</p>
+      </div>
+      <div class="mt-10 flex items-center justify-center gap-x-6">
+        <a
+          href="https://discord.gg/phonon"
+          class="rounded-md bg-neutral dark:bg-neutral-900 px-3.5 py-2.5 text-sm font-semibold text-neutral-900 dark:text-neutral shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          target="_blank"
+        >
+          Join our Discord <span aria-hidden="true">→</span></a
+        >
+      </div>
+      <svg
+        viewBox="0 0 1024 1024"
+        class="absolute top-1/2 left-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
+        aria-hidden="true"
+      >
+        <circle
+          cx="512"
+          cy="512"
+          r="512"
+          fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)"
+          fill-opacity="0.7"
+        />
+        <defs>
+          <radialGradient id="827591b1-ce8c-4110-b064-7cb85a0b1217">
+            <stop stop-color="#6dcef5" />
+            <stop offset="1" stop-color="#6dcef5" />
+          </radialGradient>
+        </defs>
+      </svg>
+    </div>
+  </div>
+</section>
+
+</div>
+<script defer type="text/javascript" src="/phonon-org-site/js/home.min.096b4f9179ef7ad3af5490b284941a23eefe42da81c33d5cf7a38c0ce35dfa2ed34c2b8da784c593f6fbe5c5615bbabcc3b700aef32a7e6b67d438b897b70295.js" integrity="sha512-CWtPkXnvetOvVJCyhJQaI&#43;7&#43;QtqBwz1c96OMDONd&#43;i7TTCuNp4TFk/b75cVhW7q8w7cArvMqfmtn1Di4l7cClQ=="></script>
+
+  
+
+        </main><footer class="py-10 print:hidden">
+  <div class="md:flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2023. Phonon DAO. All rights reserved.
+        </p>
+      
+      
+    </div>
+    
+  
+    <nav class="text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex flex-row gap-x-3 justify-between mt-4 items-center list-none">
+        
+          <li
+            class="mb-1 group ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+          >
+              <a
+                href="https://blog.phonon.org"
+                title=""
+                target="_blank"
+                >
+                  <span
+                    class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"
+                  >
+                    
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M180.5,74.262C80.813,74.262,0,155.633,0,256S80.819,437.738,180.5,437.738,361,356.373,361,256,280.191,74.262,180.5,74.262Zm288.25,10.646c-49.845,0-90.245,76.619-90.245,171.095s40.406,171.1,90.251,171.1,90.251-76.619,90.251-171.1H559C559,161.5,518.6,84.908,468.752,84.908Zm139.506,17.821c-17.526,0-31.735,68.628-31.735,153.274s14.2,153.274,31.735,153.274S640,340.631,640,256C640,171.351,625.785,102.729,608.258,102.729Z"/></svg>
+
+  </span>
+
+
+                  </span>
+                </a
+              >
+            
+          </li>
+        
+          <li
+            class="mb-1 group ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+          >
+              <a
+                href="https://discord.gg/phonon"
+                title=""
+                target="_blank"
+                >
+                  <span
+                    class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"
+                  >
+                    
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"/></svg>
+
+  </span>
+
+
+                  </span>
+                </a
+              >
+            
+          </li>
+        
+          <li
+            class="mb-1 group ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+          >
+              <a
+                href="https://github.com/PhononDAO/"
+                title=""
+                target="_blank"
+                >
+                  <span
+                    class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"
+                  >
+                    
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+
+                  </span>
+                </a
+              >
+            
+          </li>
+        
+          <li
+            class="mb-1 group ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+          >
+              <a
+                href="https://www.instagram.com/phonondao/"
+                title=""
+                target="_blank"
+                >
+                  <span
+                    class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"
+                  >
+                    
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+
+  </span>
+
+
+                  </span>
+                </a
+              >
+            
+          </li>
+        
+          <li
+            class="mb-1 group ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+          >
+              <a
+                href="https://twitter.com/PhononDAO"
+                title=""
+                target="_blank"
+                >
+                  <span
+                    class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"
+                  >
+                    
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+
+  </span>
+
+
+                  </span>
+                </a
+              >
+            
+          </li>
+        
+          <li
+            class="mb-1 group ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+          >
+              <a
+                href="https://www.youtube.com/@PhononDAO"
+                title=""
+                target="_blank"
+                >
+                  <span
+                    class="transition-colors group-dark:hover:text-primary-400 group-hover:text-primary-600"
+                  >
+                    
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+
+  </span>
+
+
+                  </span>
+                </a
+              >
+            
+          </li>
+        
+      </ul>
+    </nav>
+  
+    
+    
+      <div
+        class="cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+      >
+        <button class="block mx-auto" id="appearance-switcher-0" type="button" aria-label="appearance switcher">
+          <div
+            class="flex items-center justify-center w-12 h-12 dark:hidden"
+            title="Switch to dark appearance"
+          >
+            
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+          </div>
+          <div
+            class="items-center justify-center hidden w-12 h-12 dark:flex"
+            title="Switch to light appearance"
+          >
+            
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+          </div>
+        </button>
+      </div>
+    
+  </div>
+  <div class="text-center text-xs mt-4 dark:text-neutral">
+    † This website is maintained by the Phonon DAO. The contents and opinions of this website are those of the Phonon DAO. The Phonon DAO provides links to cryptocurrency exchanges as a service to the public. The Phonon DAO does not warrant that the information provided by these websites is correct, complete, and up-to-date. The Phonon DAO is not responsible for their content and expressly rejects any liability for damages of any kind resulting from the use, reference to, or reliance on any information contained within these websites.
+  </div>
+  
+  
+</footer>
+
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3JHBKK"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+</div>
+    </div>
+  </body>
+</html>
