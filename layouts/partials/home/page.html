@@ -2,8 +2,10 @@
   <section>{{ .Content | emojify }}</section>
 </article>
 <section>
-  <div class="mx-auto max-w-7xl px-6 lg:px-8 text-neutral-900 dark:text-neutral">
-    <div class="mx-auto my-24 max-w-2xl sm:text-center ">
+  <div
+    class="mx-auto max-w-7xl px-6 lg:px-8 text-neutral-900 dark:text-neutral"
+  >
+    <div class="mx-auto my-24 max-w-2xl sm:text-center">
       <h2
         class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
       >
@@ -14,7 +16,8 @@
       </p>
     </div>
   </div>
-  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+  {{ if .Params.homepage.showFeatures }}
+  <div class="mx-auto max-w-7xl py-16 px-6 lg:px-8">
     <dl
       class="mx-auto grid max-w-2xl grid-cols-1 gap-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-16"
     >
@@ -35,8 +38,9 @@
       {{ end }}
     </dl>
   </div>
+  {{ end }}
 
-  <div class="mx-auto max-w-7xl py-24 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
     <div
       class="relative isolate overflow-hidden bg-neutral-900 dark:bg-neutral px-6 py-16 text-center shadow-2xl sm:rounded-3xl sm:px-16"
     >
@@ -45,9 +49,12 @@
       >
         {{ .Site.Params.homepage.communityHeadline }}
       </h2>
-      <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-neutral-300 dark:text-neutral-700">
-        {{ .Site.Params.homepage.communitySummary }}
-      </p>
+      <div
+        class="mx-auto mt-6 max-w-3xl grid grid-cols-1 gap-y-8 text-lg leading-8 text-neutral-300 dark:text-neutral-700"
+      >
+        <p>{{ .Site.Params.homepage.communitySummaryOne }}</p>
+        <p>{{ .Site.Params.homepage.communitySummaryTwo }}</p>
+      </div>
       <div class="mt-10 flex items-center justify-center gap-x-6">
         <a
           href="https://discord.gg/phonon"

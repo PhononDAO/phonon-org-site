@@ -1,6 +1,6 @@
 ---
 title: "Phonon"
-description: "Build with the power of digital cash."
+description: "Make cryptocurrency portable"
 ---
 
 {{< youtube RWs7duPZyP4 >}}

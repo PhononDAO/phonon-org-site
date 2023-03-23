@@ -29,8 +29,9 @@ enableCodeCopy = true
 
 [homepage]
   layout = "custom" # valid options: page, profile, custom
-  headline = "Build with the power of digital cash"
-  summary = "Phonon revolutionizes the tools for global settlement and provides them to the world. Open sourced. Peer-to-peer. Gamechanger."
+  headline = "Make cryptocurrency portable."
+  summary = "Phonon generates and transfers cryptographic keypairs that can only ever exist in one physical location at a time. Use Phonon to send an ERC20 token directly via a text message or QR code, or literally hand someone a card with a BTC on it. Portable cryptocurrency that can move person to person without ever broadcasting to a public network."
+  showFeatures = false
   features = [
     { img = "img/interoperable.png", headline = "Interoperable.", summary = "Phonon is cross-chain, right out of the box."},
     { img = "img/no_fees.png", headline = "No Fees.", summary = "Send crypto cross-chain bridges. No gas. No problem."},
@@ -40,7 +41,8 @@ enableCodeCopy = true
     { img = "img/scalable.png", headline = "Scalable.", summary = "Phonon is capable of more transactions per second than Visa, Mastercard, Ethereum, and Bitcoin. Combined."},
   ]
   communityHeadline = "Be a part of the community"
-  communitySummary = "If you are interested in Phonon Network the best way to our discord. Connect with others who are helping build this stay up to date with everything that is going on is to join technology. Whether your talents are coding, marketing, or even just talking in chat, we want you to be a part of the DAO and be as excited as we are about Phonon."
+  communitySummaryOne = "The best way to stay connected and up-to-date with everything Phonon is to join our Discord. There you can connect directly with the community that builds the future of payment technology."
+  communitySummaryTwo = "Bring your interest, and any expertise you have. All skills are relevant--coding, marketing, administration, whatever. Join our community and share your excitement for Phonon!"
 
 [article]
   showDate = true
