@@ -4,7 +4,7 @@
 
 theme = "congo"
 defaultContentLanguage = "en"
-baseURL = "https://phonondao.github.io/phonon-org-site/"
+baseURL = "https://www.phonon.org/"
 
 enableRobotsTXT = true
 paginate = 25
