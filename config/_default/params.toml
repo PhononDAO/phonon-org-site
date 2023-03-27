@@ -30,7 +30,7 @@ enableCodeCopy = true
 [homepage]
   layout = "custom" # valid options: page, profile, custom
   headline = "Make cryptocurrency portable."
-  summary = "Phonon generates and transfers cryptographic keypairs that can only ever exist in one physical location at a time. Use Phonon to send an ERC20 token directly via a text message or QR code, or literally hand someone a card with a BTC on it. Portable cryptocurrency that can move person to person without ever broadcasting to a public network."
+  summary = "Phonon generates and transfers cryptographic keypairs that can only ever exist in one location at a time. Use Phonon to send an ERC20 token directly via a text message, QR code, or literally hand someone a card with BTC on it. Portable cryptocurrency that can move from person to person without ever broadcasting to a public network."
   showFeatures = false
   features = [
     { img = "img/interoperable.png", headline = "Interoperable.", summary = "Phonon is cross-chain, right out of the box."},
@@ -41,8 +41,7 @@ enableCodeCopy = true
     { img = "img/scalable.png", headline = "Scalable.", summary = "Phonon is capable of more transactions per second than Visa, Mastercard, Ethereum, and Bitcoin. Combined."},
   ]
   communityHeadline = "Be a part of the community"
-  communitySummaryOne = "The best way to stay connected and up-to-date with everything Phonon is to join our Discord. There you can connect directly with the community that builds the future of payment technology."
-  communitySummaryTwo = "Bring your interest, and any expertise you have. All skills are relevant--coding, marketing, administration, whatever. Join our community and share your excitement for Phonon!"
+  communitySummaryOne = "The best way to stay connected and up-to-date with everything Phonon is to join our Discord. Share your interest and any expertise you have. All skills are relevant—coding, marketing, administration, etc. Join our community and share your excitement for Phonon!"
 
 [article]
   showDate = true
